@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>అందాల పాడేరు టూరిజం</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f9f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #ffeb3b;
+        }
+        header p {
+            font-size: 1.3rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2e7d32;
+            font-size: 2.2rem;
+        }
+        .places-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-content h3 {
+            color: #1b5e20;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>అందాల పాడేరు స్వాగతం</h1>
+        <p>తూర్పు కనుమల మన్యం అందాలు, జలపాతాలు మరియు కాఫీ తోటల సౌందర్యం</p>
+    </header>
+
+    <div class="container">
+        <h2>చూడదగిన ప్రముఖ ప్రదేశాలు</h2>
+        
+        <div class="places-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=600&q=80" alt="జలపాతాలు">
+                <div class="card-content">
+                    <h3>కటికి జలపాతం (Katiki Waterfalls)</h3>
+                    <p>ప్రకృతి ఒడిలో దాగిన ఈ జలపాతం పర్యాటకులను ఎంతగానో ఆకట్టుకుంటుంది. ఇక్కడ చల్లని నీరు మరియు చుట్టూ పచ్చని అడవులు ప్రత్యేక ఆకర్షణ.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80" alt="అరకు వ్యూ">
+                <div class="card-content">
+                    <h3>కాఫీ తోటలు (Coffee Plantations)</h3>
+                    <p>పాడేరు మరియు అరకు ప్రాంతాలలో విస్తరించి ఉన్న సువాసన వెదజల్లే కాఫీ తోటలను తిలకించడం ఒక అద్భుతమైన అనుభూతి.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="కొండలు">
+                <h3>ల
+
+
+
